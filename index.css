@@ -1,3 +1,6 @@
+body{
+    background-color: #F1F1F3;
+}
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
@@ -57,7 +60,8 @@
     color: rgba(255, 255, 255, 1);
     background-color: rgba(0, 106, 80, 1);
     padding: 17px 34px;
-    border-radius: 8px;    
+    border-radius: 8px;
+    border: none;    
     
        
 }
@@ -65,6 +69,15 @@
 .future{
     width: 1280px;
     margin: 160px;
+}
+.future-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+.future-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
 }
 .future-container{
     display: flex;
@@ -77,6 +90,15 @@
     padding: 32px;
     border-radius: 16px;
 }
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.skill-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
 .btn{
     
 }
@@ -86,4 +108,56 @@
     padding: 15px 20px;
     color: rgba(255, 255, 255, 1);
     border-radius: 16px;
+    border: none;
+}
+    /* news style */
+.news{
+    width: 1280px;
+    margin: 160px;
+    padding: 20px 20px 10px 20px;
+    /* background-color: black; */
 }    
+.news-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+.news-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    background-color: #FFFFFF;
+}
+.news-container{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 32px;
+    border-radius: 20px;
+}
+.news-pic{
+    border-radius: 30px;
+    padding: 20px;
+    
+}    
+.section-02{
+    margin-top: 20px;
+}
+.satelite{
+    padding: 30px;
+}
+.date-bar{
+    display: flex;
+    gap: 30px;
+}
+/* read-more button */
+.read-more{
+    padding: 15px;
+    font-weight: bolder;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+.read-more:hover{
+    background-color: red;
+}
