@@ -3,6 +3,25 @@
     font-weight: 400;
     font-style: normal;
   }
+     /* extra style */
+.innovation{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.green{
+    background-color: rgba(198, 228, 214, 1);
+}
+.modern{
+    background-color: rgba(247, 235, 207, 1);
+}
+.card-innovation{
+    background-color: rgba(84, 144, 245, 1);
+}
+.card-green{
+    background-color: rgba(9, 161, 92, 1);
+}
+.card-modern{
+    background-color: rgba(255, 194, 57, 1);
+}     
 
   /* banner style */
 .banner{
@@ -31,12 +50,40 @@
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
 }
-.btn{
-    font-size: 18px;
-    font-weight: 700px;    
-}
+
 .banner-btn{
+    font-size: 18px;
+    font-weight: 700px;
+    color: rgba(255, 255, 255, 1);
     background-color: rgba(0, 106, 80, 1);
     padding: 17px 34px;
-    border-radius: 8px;   
-}  
+    border-radius: 8px;    
+    
+       
+}
+    /* future style  */
+.future{
+    width: 1280px;
+    margin: 160px;
+}
+.future-container{
+    display: flex;
+    margin-top: 32px;
+    gap: 24px;
+    
+}
+.skill{
+    width: 400px;
+    padding: 32px;
+    border-radius: 16px;
+}
+.btn{
+    
+}
+.future-btn{
+    font-size: 16px;
+    font-weight: 700px;
+    padding: 15px 20px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+}    
