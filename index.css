@@ -1,163 +1,246 @@
-body{
-    background-color: #F1F1F3;
-}
-.fira-sans-regular {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-     /* extra style */
-.innovation{
-    background-color: rgba(84, 144, 245, 0.2);
-}
-.green{
-    background-color: rgba(198, 228, 214, 1);
-}
-.modern{
-    background-color: rgba(247, 235, 207, 1);
-}
-.card-innovation{
-    background-color: rgba(84, 144, 245, 1);
-}
-.card-green{
-    background-color: rgba(9, 161, 92, 1);
-}
-.card-modern{
-    background-color: rgba(255, 194, 57, 1);
-}     
+    body{
+        background-color: #F1F1F3;
+    }
+    .red:hover{
+        background-color: red;
+    }
+    .fira-sans-regular {
+        font-family: "Fira Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+        /* extra style */
+    .innovation{
+        background-color: rgba(84, 144, 245, 0.2);
+    }
+    .green{
+        background-color: rgba(198, 228, 214, 1);
+    }
+    .modern{
+        background-color: rgba(247, 235, 207, 1);
+    }
+    .card-innovation{
+        background-color: rgba(84, 144, 245, 1);
+    }
+    .card-green{
+        background-color: rgba(9, 161, 92, 1);
+    }
+    .card-modern{
+        background-color: rgba(255, 194, 57, 1);
+    }     
 
-  /* banner style */
-.banner{
-    display: flex;
-    background-color: rgba(198, 228, 214, 1);
-    width: 1280px;
-    margin: 120px 160px;
-    border-radius: 24px;
-    
+    /* banner style */
+    .banner{
+        display: flex;
+        background-color: rgba(198, 228, 214, 1);
+        width: 1280px;
+        margin: 120px 160px;
+        border-radius: 24px;
+        
 
-}
-.banner-content{
-    width: 600px;
-    margin: 117px 60px;
-}
-.banner-pic{
-    margin: 80px 60px;
-}
-.banner-container{
-    font-size: 24px;
-    font-weight: 600px;
-    color: rgba(14, 14, 14, 0.5);
-}
-.banner-title{
-    font-size: 56px;
-    font-weight: bold;
-    color: rgba(14, 14, 14, 1);
-}
+    }
+    .banner-content{
+        width: 600px;
+        margin: 117px 60px;
+    }
+    .banner-pic{
+        margin: 80px 60px;
+    }
+    .banner-container{
+        font-size: 24px;
+        font-weight: 600px;
+        color: rgba(14, 14, 14, 0.5);
+    }
+    .banner-title{
+        font-size: 56px;
+        font-weight: bold;
+        color: rgba(14, 14, 14, 1);
+    }
 
-.banner-btn{
-    font-size: 18px;
-    font-weight: 700px;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(0, 106, 80, 1);
-    padding: 17px 34px;
-    border-radius: 8px;
-    border: none;    
-    
-       
-}
-    /* future style  */
-.future{
-    width: 1280px;
-    margin: 160px;
-}
-.future-title{
-    font-size: 40px;
-    font-weight: bold;
-    color: rgba(14, 14, 14, 1);
-}
-.future-description{
-    font-size: 16px;
-    color: rgba(14, 14, 14, 0.7);
-}
-.future-container{
-    display: flex;
-    margin-top: 32px;
-    gap: 24px;
-    
-}
-.skill{
-    width: 400px;
-    padding: 32px;
-    border-radius: 16px;
-}
-.skill-title{
-    font-size: 20px;
-    font-weight: bold;
-    color: rgba(14, 14, 14, 0.8);
-}
-.skill-description{
-    font-size: 16px;
-    color: rgba(14, 14, 14, 0.7);
-}
-.btn{
-    
-}
-.future-btn{
-    font-size: 16px;
-    font-weight: 700px;
-    padding: 15px 20px;
-    color: rgba(255, 255, 255, 1);
-    border-radius: 16px;
-    border: none;
-}
-    /* news style */
-.news{
-    width: 1280px;
-    margin: 160px;
-    padding: 20px 20px 10px 20px;
-    /* background-color: black; */
-}    
-.news-title{
-    font-size: 40px;
-    font-weight: bold;
-    color: rgba(14, 14, 14, 1);
-}
-.news-description{
-    font-size: 16px;
-    color: rgba(14, 14, 14, 0.7);
-    background-color: #FFFFFF;
-}
-.news-container{
-    background-color: rgba(255, 255, 255, 1);
-    display: flex;
-    gap: 32px;
-    border-radius: 20px;
-}
-.news-pic{
-    border-radius: 30px;
-    padding: 20px;
-    
-}    
-.section-02{
-    margin-top: 20px;
-}
-.satelite{
-    padding: 30px;
-}
-.date-bar{
-    display: flex;
-    gap: 30px;
-}
-/* read-more button */
-.read-more{
-    padding: 15px;
-    font-weight: bolder;
-    background-color: #006A50;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    color: white;
-}
-.read-more:hover{
-    background-color: red;
-}
+    .banner-btn{
+        font-size: 18px;
+        font-weight: 700px;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(0, 106, 80, 1);
+        padding: 17px 34px;
+        border-radius: 8px;
+        border: none;    
+        
+        
+    }
+        /* future style  */
+    .future{
+        width: 1280px;
+        margin: 160px;
+    }
+    .future-title{
+        font-size: 40px;
+        font-weight: bold;
+        color: rgba(14, 14, 14, 1);
+    }
+    .future-description{
+        font-size: 16px;
+        color: rgba(14, 14, 14, 0.7);
+    }
+    .future-container{
+        display: flex;
+        margin-top: 32px;
+        gap: 24px;
+        
+    }
+    .skill{
+        width: 400px;
+        padding: 32px;
+        border-radius: 16px;
+    }
+    .skill-title{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgba(14, 14, 14, 0.8);
+    }
+    .skill-description{
+        font-size: 16px;
+        color: rgba(14, 14, 14, 0.7);
+    }
+    .btn{
+        
+    }
+    .future-btn{
+        font-size: 16px;
+        font-weight: 700px;
+        padding: 15px 20px;
+        color: rgba(255, 255, 255, 1);
+        border-radius: 16px;
+        border: none;
+    }
+        /* news style */
+    .news{
+        width: 1280px;
+        margin: 160px;
+        padding: 20px 20px 10px 20px;
+        /* background-color: black; */
+    }    
+    .news-title{
+        font-size: 40px;
+        font-weight: bold;
+        color: rgba(14, 14, 14, 1);
+    }
+    .news-description{
+        font-size: 16px;
+        color: rgba(14, 14, 14, 0.7);
+        background-color: #FFFFFF;
+    }
+    .news-container{
+        background-color: rgba(255, 255, 255, 1);
+        display: flex;
+        gap: 32px;
+        border-radius: 20px;
+    }
+    .news-pic{
+        border-radius: 30px;
+        padding: 20px;
+        
+    }    
+    .section-02{
+        margin-top: 20px;
+    }
+    .satelite{
+        padding: 30px;
+    }
+    .date-bar{
+        display: flex;
+        gap: 30px;
+    }
+    /* read-more button */
+    .read-more{
+        padding: 15px;
+        font-weight: bolder;
+        background-color: #006A50;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        color: white;
+    }
+    .read-more:hover{
+        background-color: red;
+    }
+    /* donate button section*/
+    .donate-section{
+        width: 1280px;
+        margin: 160px;
+    }
+    .donate-btn{
+        display: flex;
+        gap: 10px;
+    }
+    .dodate-now{
+        width: 243px;
+        height: 128px;
+        font-size: 30px;
+        font-weight: bold;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+    .dodate-now:hover{
+        background-color: red;
+    }
+    .btn2{
+        background-color: #C6E4D6;
+    }
+    .donate-hader{
+        text-align: center;
+    }
+    .bottom-btn{
+        margin-top: 30px;
+        margin-left: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        /* subscribe style */
+    .subscribe{
+        width: 1280;
+        margin: 160px;
+        background-color: rgba(198, 228, 214, 1);
+        padding: 100px;
+    }
+    .subscribe-container{
+        width: 750px;
+        text-align: center;
+    }
+    .input{
+        width: 600px;
+        padding: 12px 15px;
+    }
+    .sub-btn{
+        height: 45px;
+        padding: 12px 15px;
+        background-color: rgba(0, 106, 80, 1);
+        border-radius: 0 8px 4px 0;
+        border: none;
+    }    
+    .midea-section{
+        width: 1280px;
+        margin: 160px;
+        margin-left: 50%;
+    }
+    .bang{
+        text-align: center;
+        gap: 10px;
+
+    }
+    .add-futere{
+        background-image: url(assets/quote-bg.png);
+        background-repeat: no-repeat;
+        padding: 20px;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        width: 1280px;
+        margin: auto;
+        background-color: rgb(112, 108, 108);
+        padding: 10px;
+    }
