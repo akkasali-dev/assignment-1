@@ -3,3 +3,40 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  /* banner style */
+.banner{
+    display: flex;
+    background-color: rgba(198, 228, 214, 1);
+    width: 1280px;
+    margin: 120px 160px;
+    border-radius: 24px;
+    
+
+}
+.banner-content{
+    width: 600px;
+    margin: 117px 60px;
+}
+.banner-pic{
+    margin: 80px 60px;
+}
+.banner-container{
+    font-size: 24px;
+    font-weight: 600px;
+    color: rgba(14, 14, 14, 0.5);
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+.btn{
+    font-size: 18px;
+    font-weight: 700px;    
+}
+.banner-btn{
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    border-radius: 8px;   
+}  
